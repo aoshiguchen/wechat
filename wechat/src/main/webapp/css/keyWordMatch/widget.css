@@ -1,5 +1,0 @@
-/*on/off组件*/
-.is_checked, .un_checked{width:80px; border:1px solid #B7BABD;background:#E8E8E8; height:21px; border-radius: 2px; position: absolute; top:-2px; right:100px; cursor:pointer}
-.is_checked span, .un_checked span{width:54px; height: 21px; line-height: 21px; text-align: center; display: inline-block; position: absolute;  border-radius: 2px; top:-1px; font-size:12px  }
-.is_checked span.txt{left: -1px;color:#fff;background: #457FB9; border: 1px solid #386C9F;}
-.un_checked span.txt{right:-1px; margin-right:0px; color: #000;background: #fff; border: 1px solid #999;}
