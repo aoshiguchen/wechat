@@ -1,0 +1,849 @@
+body {
+	background:none repeat scroll 0 0 #f1f1f1;
+	font-size: 12px;
+}
+
+.body .navbar {
+	padding-bottom: 2.5em;
+	/*margin-left: 80px;*/
+}
+
+/* Breadcrumb */
+#breadcrumb {
+	height: 40px;
+	position: relative;
+	box-shadow: 0 0 1px #ffffff;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 0 5px;
+}
+
+#breadcrumb .item {
+	padding: 8px 28px 8px 10px;
+	display: inline-block;
+	background-image: url('http://weiapp.qq.com/studio/weiapp/images/admin/breadcrumb.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	color: #2e7dc6;
+}
+
+#breadcrumb .item:hover {
+	color: #2e7dc6;
+}
+
+#breadcrumb .item:last-child {
+	background-image: none;
+}
+
+#breadcrumb .item.current {
+	color: #444444;
+	background-image: none;
+}
+
+#breadcrumb .item i {
+	position: absolute;
+	left: 8px;
+	top: 1px;
+	margin-right: 5px;
+	opacity: .6;
+}
+
+#breadcrumb .item:hover i {
+	margin-right: 5px;
+	opacity: .8;
+}
+
+/*------------------------------------------------------------------
+ 
+Layout: WeixinActivate
+
+------------------------------------------------------------------- */
+div#weixinactivate {
+	padding: 0 50px;
+}
+div#weixinactivate div.line {
+	position: relative;
+	float: left;
+	left: 10px;
+	display: inline-block;
+	margin-left: -2px;
+	width: 2px;
+	height: 281px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin-activate.png") -1086px 0 no-repeat;
+}
+div#weixinactivate i.step {
+	font-weight: bold;
+	font-size: 16px;
+}
+div#weixinactivate span.activate_title {
+	line-height: 34px;
+	font-size: 16px;
+}
+div#weixinactivate a.weixin_link {
+	margin-left: 35px;
+	color: #039fe0;
+}
+div#weixinactivate a.weixin_link:hover {
+	color: #444444;
+}
+div#weixinactivate div.step_one, div#weixinactivate div.step_two, div#weixinactivate div.step_three {
+	display: inline-block;
+	margin-left: 30px;
+	width: 280px;
+	height: 190px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin-activate.png") no-repeat;
+}
+div#weixinactivate div.step_two, div#weixinactivate div.step_three {
+	margin-top: 20px;
+}
+div#weixinactivate div.step_one {
+	background-position: -40px -48px;
+}
+div#weixinactivate div.step_two {
+	background-position: -395px -48px;
+}
+div#weixinactivate div.step_three {
+	background-position: -760px -48px;
+}
+div#weixinactivate p.activate_desc {
+	width: 100%;
+	margin-left: 32px;
+	font-size: 13px;
+	font-weight: bold;
+}
+div#weixinactivate p.relative_title {
+	font-weight: bold;
+	margin: 30px 0 0 32px;
+	
+}
+div#weixinactivate p.relative_code {
+	margin-left: 32px;
+}
+div#weixinactivate a.btn-next {
+	position: relative;
+	left: 40%;
+	margin: 40px 0 50px -100px;
+	width: 170px;
+}
+
+.bind-account{
+	padding-bottom: 20px;
+}
+
+.bind-account .wrapper{
+    margin-left: 60px;
+}
+.bind-account .title{
+	position: relative;
+	margin: 30px 0 15px 0;
+	border-bottom: 1px solid #ddd;
+	width: 86%;
+	line-height: 35px;
+}
+
+.bind-account .title .title-desp{
+	font-size: 13px;
+    font-weight: normal;
+}
+
+.bind-account .copy-panel{
+	width: 630px;
+	border: 1px solid #ddd;
+	padding: 20px;
+	border-radius: 5px;
+    margin: 15px 0;
+}
+
+.bind-account .copy-button{
+	top: -5px;
+    position: relative;
+}
+
+.bind-account .copy-button a{
+	padding: 0 10px;
+}
+
+.bind-account .guide{
+	position: absolute;
+	right: 30px;
+	top: 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.bind-account .submit{
+	margin: 35px 0;
+	line-height: 25px;
+	width: 120px;
+}
+
+.bind-account .confirm{
+	margin: 15px 20px 15px 0;
+	line-height: 25px;
+	width: 120px;
+}
+
+.bind-account .edit{
+	margin-left: 16px;
+	font-size: 14px;
+}
+
+.bind-info {
+	line-height: 20px;
+}
+
+.bind-app .input{
+   position: relative;
+   margin-top: 0;
+}
+
+.bind-app .input i{
+	position: absolute;
+	left: 6px;
+	top: 7px;
+	opacity: 0.6;
+}
+
+.bind-app .guide{
+    margin: 5px 25px;
+}
+
+
+/*------------------------------------------------------------------
+ 
+Layout: WeixinActivateApp
+
+------------------------------------------------------------------- */
+div#weixin_activateapp {
+	margin: 50px 0;
+}
+div#weixin_activateapp form {
+	margin: 30px 50px;
+}
+div#weixin_activateapp form .nav_title {
+	margin-bottom: 20px;
+}
+
+div#weixin_activateapp .nav_title.lefter {
+    margin-left: 48px;
+}
+
+div#weixin_activateapp form .tips {
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+div#weixin_activateapp form input {
+	height: 24px;
+	padding-left: 30px;
+}
+div#weixin_activateapp .input {
+	position: relative;
+	margin: 15px 30px;
+}
+div#weixin_activateapp .account, div#weixin_activateapp .password {
+	position: absolute;
+	border: 0;
+	background: none;
+	top: 3px;
+	left: 0;
+}
+div#weixin_activateapp a.btn-next {
+	position: relative;
+	left: 40%;
+	margin: 10px 0 50px -100px;
+	width: 170px;
+}
+div#weixin_activateapp a.btn-back {
+	position: relative;
+	left: 40%;
+	margin: 10px 0 50px 10px;
+	width: 170px;
+}
+div#weixin_activateapp .intro-grid {
+	padding: 80px;
+}
+div#weixin_activateapp .intro-grid p.activateapp_tips {
+	font-size: 14px;
+}
+div#weixin_activateapp .intro-grid div.activateapp_picture {
+	display: inline-block;
+	margin: 10px 20px;
+	width: 300px;
+	height: 173px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin-activate.png") 0 -273px no-repeat;
+}
+/*------------------------------------------------------------------
+ 
+Layout: WeixinFindme
+
+------------------------------------------------------------------- */
+div#weixin_findme h4.nav_title {
+	margin: 20px 0 0 47px;
+}
+div#weixin_findme a.btn-save {
+	position: relative;
+	left: 50%;
+	margin: 30px 0 50px 10px;
+	width: 100px;
+	padding: 0 10px;
+}
+div#weixin_findme a.btn-delete {
+	position: relative;
+	left: 50%;
+	margin: 30px 0 50px 0px;
+	width: 100px;
+	padding: 0 10px;
+}
+div#weixin_findme .intro-grid div.findme_picture {
+	display: inline-block;
+	margin: 30px 0;
+	width: 290px;
+	height: 263px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") -615px 0 no-repeat;
+}
+
+div#weixin_findme .content{
+	padding: 0;
+}
+div#weixin_findme .sub_title_bar{
+	margin-bottom: 30px;
+}
+/*------------------------------------------------------------------
+ 
+Layout: WeixinSmartMenu
+
+------------------------------------------------------------------- */
+.main-container div#menu {
+	min-height: 500px;
+	margin-bottom: 30px;
+}
+
+.main-container div#menu .nav_container {
+	width: 300px;
+}
+.main-container div#menu .page-add {
+	margin-top: 15px;
+}
+.main-container div#menu .menu_preview {
+	text-align: center;
+}
+.main-container div#menu .smart_menu {
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+}
+.main-container div#menu .smart_menu_panel {
+	height: 480px;
+	background: #fff;
+}
+.main-container div#menu .smart_menu_panel .widget-title .buttons {
+	margin-top: 7px;
+}
+.main-container div#menu #menu_preview {
+	height: 419px;
+	background: #EFF3F7;
+}
+/*------------------------------------------------------------------
+ 
+Layout: WeixinDefault
+
+------------------------------------------------------------------- */
+div#weixindefault .dev_ai_message {
+    display: inline-block;
+    width: 186px;
+    height: 27px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") 0 -492px no-repeat;
+}
+div#weixindefault .dev_smart_menu {
+    display: inline-block;
+    width: 186px;
+    height: 27px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") 0 -527px no-repeat;
+}
+div#weixindefault .dev_find_me {
+    display: inline-block;
+    width: 125px;
+    height: 27px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") 0 -559px no-repeat;
+}
+div#weixindefault .dev_some_word {
+	float: left;
+    margin-top: 50px;
+	height: 130px;
+    width: 160px;
+    display: inline-block;
+}
+div#weixindefault .dev_some_word>i>a {
+	text-decoration: underline;
+}
+div#weixindefault .dev_create_btn {
+    float: right;
+	display: none;
+    margin: 50px 0 0 0;
+}
+div#weixindefault .dev_close_btn {
+	float: left;
+	margin: 50px 3px 0 3px;
+}
+div#weixindefault {
+	padding: 50px;
+}
+div#weixindefault div.intro-grid {
+	margin: 0 auto;
+	width: 288px;
+	color: #595959;
+	text-align: left;
+}
+div#weixindefault div.intro-grid .tips{
+	position: absolute;
+    color: #888;
+}
+
+div#weixindefault div.line {
+	position: relative;
+	float: left;
+	left: 14px;
+	display: inline-block;
+	margin-left: -2px;
+	width: 2px;
+	height: 491px;
+	background: url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") no-repeat scroll -958px 0 transparent;
+}
+div#weixindefault h5 {
+	margin: 0 0 30px 17px;
+	font-weight: normal;
+	font-size: 16px;
+}
+.main-container .dev_pic_left {
+    display: inline-block;
+    width: 290px;
+    height: 263px;
+    vertical-align: middle;
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") 0 0 no-repeat;
+}
+.main-container .dev_pic_middle {
+    display: inline-block;
+    width: 290px;
+    height: 263px;
+    vertical-align: middle;
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") -307px 0 no-repeat;
+}
+.main-container .dev_pic_right {
+    display: inline-block;
+    width: 290px;
+    height: 263px;
+    vertical-align: middle;
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") -615px 0 no-repeat;
+}
+#dialog .vip_intro_button {
+    display: inline-block;
+    width: 225px;
+    height: 55px;
+	margin-top: 15px;
+    vertical-align: middle;
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin.png") -154px -384px no-repeat;
+}
+
+.weixin-functions{
+	padding: 0 15px;
+}
+
+.weixin-functions .functions-title{
+	line-height: 40px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.weixin-functions .functions-title span{
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.weixin-functions .functions-title span font.red{
+	color: #bc3c3b;
+}
+
+.weixin-functions .functions-title .deco{
+	background-color: #17b1fb;
+	width: 5px;
+	display: inline-block;
+	height: 25px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.weixin-functions .functions{
+	padding: 20px;
+	background-color: #Fafafa;
+	border: solid 1px #Fcfcfc;
+	box-shadow: 1px 1px 2px #ddd;
+	border-radius: 5px;
+	margin: 15px 0 40px 0;
+}
+
+.weixin-functions .primary{
+	float: left;
+	width: 50%;
+	margin: 30px 0px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.weixin-functions .primary:first-of-type{
+	border-right: 1px solid #e5e5e5;
+}
+
+.weixin-functions .primary .wrapper{
+	width: 75%;
+    min-width: 320px;
+    margin: auto;
+}
+
+.weixin-functions .primary .weixin-icon{
+    display: block;
+	width: 145px;
+	height: 145px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin-icons.png") -0px -0px no-repeat;
+	float: left;
+	margin-right: 20px;
+}
+
+
+
+.weixin-functions .primary .weixin-icon.user{
+    background-position: 0 0;
+}
+
+.weixin-functions .primary .weixin-icon.user:hover{
+	background-position: -150px 0;
+}
+
+.weixin-functions .primary .weixin-icon.resource{
+	background-position: 0 -150px
+}
+
+.weixin-functions .primary .weixin-icon.resource:hover{
+	background-position: -150px -150px
+}
+
+
+.weixin-functions .primary .function-name{
+	color: #4d4d4d;
+	font-size: 15px;
+	padding-top: 36px;
+	padding-bottom: 10px;
+}
+
+.weixin-functions .primary .function-description{
+	line-height: 20px;
+    color: #636363;
+}
+
+.weixin-functions .functions.apps{
+	padding: 30px 30px;
+}
+
+.weixin-functions .secondary{
+	float: left;
+	width: 20%;
+	border-right: 1px solid #e5e5e5;
+}
+
+.weixin-functions .secondary .account{
+	border-right: 1px solid #e5e5e5;
+}
+
+.weixin-functions .secondary .function-name{
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.weixin-functions .secondary .weixin-icon{
+    display: block;
+	width: 105px;
+	height: 105px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin-icons.png") -0px -300px no-repeat;
+	margin: auto;
+}
+
+.weixin-functions .secondary .weixin-icon:hover{
+    background-position: -150px -300px;
+}
+
+.weixin-functions .secondary .weixin-icon.ai-message{
+    background-position: 0 -410px
+}
+.weixin-functions .secondary .weixin-icon.ai-message:hover{
+    background-position: -150px -410px
+}
+
+.weixin-functions .secondary .weixin-icon.map{
+    background-position: 0 -520px
+}
+
+.weixin-functions .secondary .weixin-icon.map:hover{
+    background-position: -150px -520px
+}
+
+/*pub account start*/
+.weixin-functions #accountList{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.weixin-functions .account-primary{
+	margin-bottom: 25px;
+}
+.weixin-functions .account-primary .wrapper{
+	width: 80%;
+}
+.weixin-functions .account-primary .weixin-icon{
+	width: 105px;
+	height: 105px;
+}
+
+.weixin-functions .account-primary .weixin-icon.user{
+    background-position: 0 -638px;
+}
+
+.weixin-functions .account-primary .weixin-icon.user:hover{
+	background-position: 0 -638px;
+}
+
+.weixin-functions .account-primary:first-of-type{
+	border-right: 0;
+}
+
+.weixin-functions .account-primary .function-name{
+	font-size: 16px;
+	padding-top: 40px;
+	font-weight: normal;
+}
+
+.weixin-functions .account-secondary{
+	position: relative;
+	width: 20%;
+	border-right: 0;
+}
+
+.weixin-functions .account-secondary .weixin-icon{
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+    background-position: 0 -757px;
+	z-index: 9;
+}
+
+.weixin-functions .account-secondary .weixin-icon:hover{
+	background-position: 0 -757px;
+}
+
+.weixin-functions .account-secondary .wrapper{
+	width: 75%;
+    min-width: 320px;
+    margin: auto;
+}
+
+.weixin-functions .account-secondary.account-null{
+	width: 38%;
+	border-right: 0;
+	padding: 40px 0 50px 15px;
+}
+
+.weixin-functions .account-secondary.account-null .weixin-icon{
+	position: static;
+	margin-left: 0;
+	width: 302px;
+}
+
+.weixin-functions .account-secondary .account{
+	display: block;
+	width: 206px;
+	height: 155px;
+	margin-bottom: 15px;
+	padding-top: 20px;
+}
+
+.weixin-functions .account-secondary .account-border{
+	display: none; 
+	position: absolute;
+	left: 35px;
+	top: 5px;
+	width: 146px;
+	height: 170px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin-icons.png") -0px -1130px no-repeat;
+	margin: auto;
+}
+
+.weixin-functions .account-secondary .account-name {
+	position: absolute;
+	margin-left: -36px;
+	left: 50%;
+	top: 42%;
+	text-align: center;
+	width: 56px;
+	line-height: 22px;
+	color: #fff;
+	font-size: 14px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.weixin-functions .account-secondary.account-unbind .account-name{
+	margin-left: -36px;
+}
+
+.weixin-functions .account-secondary .account-delete{
+	position: absolute;
+	display: none;
+	top: 2px;
+	left: 166px;
+	width: 22px;
+	height: 22px;
+	background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/weixin-icons.png") -160px -1138px no-repeat;
+	margin: auto;
+}
+
+.weixin-functions .account-secondary .weixin-icon.account-unbind, .weixin-functions .account-secondary .weixin-icon.account-normal{
+	width: 122px;
+}
+
+.weixin-functions .account-secondary .weixin-icon.account-unbind{
+    background-position: 0 -882px;
+}
+
+.weixin-functions .account-secondary .weixin-icon.account-unbind.hover{
+    background-position: -146px -882px;
+}
+
+.weixin-functions .account-secondary .weixin-icon.account-normal{
+    background-position: 0 -1010px;
+}
+
+.weixin-functions .account-secondary .weixin-icon.account-normal.hover{
+    background-position: -148px -1010px;
+}
+
+.weixin-functions .account-secondary .function-name{
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	margin-left: -32px;
+	font-weight: normal;
+}
+
+.weixin-functions .account-secondary .function-name a{
+	color: #2e7dc6;
+}
+
+/*pub account end*/
+
+.activate-app-modal .input{
+   position: relative;
+   margin: 20px 0px;
+}
+
+.activate-app-modal .input input{
+    padding-left: 25px;
+    width: 100%
+}
+
+.activate-app-modal .input i{
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    opacity: 0.6;
+}
+
+.activate-app-modal .guide{
+	margin: 7px 25px;
+}
+
+.activate-app-modal .submit-binding{
+    line-height: 22px;
+}
+
+/*------------------------------------------------------------------
+ 
+Layout: helpweixin1
+
+------------------------------------------------------------------- */
+
+.help-weixin{
+	width: 620px;
+	padding: 25px 0px 25px 80px;
+	margin-top: 35px;
+    margin-bottom: 50px;
+	font-size: 14px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #ccc; 
+}
+
+.help-weixin .deco{
+    background-color: #17b1fb;
+	width: 5px;
+	display: inline-block;
+	height: 25px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.help-weixin .guide-title{
+	line-height: 40px;
+	color: #4d4d4d;
+	font-size: 16px;
+}
+
+.help-weixin .guide-desp{
+	margin: 10px 0;
+}
+
+.help-weixin .step{
+	margin-top: 35px;
+}
+
+.help-weixin .sub-step{
+    margin: 10px 0 10px 0;
+	padding-left: 70px;
+}
+
+.help-weixin .step-label{
+    color: #17B1FB;
+	font-size: 16px;
+	display: inline-block;
+	top: -1px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.help-weixin .detail{
+    margin-top: 30px;
+}
+
+.help-weixin .back{
+	text-align: right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.help-weixin .back .back-icon{
+    background: transparent url("http://weiapp.qq.com/studio/weiapp/images/admin/help-weixin-back.png") -0px -3px no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+
+.weixin_tips {
+	color: #444444;
+	margin: 0 50px;
+}

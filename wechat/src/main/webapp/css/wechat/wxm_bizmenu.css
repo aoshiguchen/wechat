@@ -1,0 +1,961 @@
+.main-container i.dev_before_word {
+    display: inline-block;
+    width: 5px;
+    height: 26px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") 0 -458px no-repeat;
+}
+.main-container div.line_horizontal {
+	position: absolute;
+	margin-left: -50px;
+	top: 200px;
+	display: inline-block;
+    width: 694px;
+    height: 2px;
+    background: transparent url("../images/weixin.png") 0 -278px no-repeat;
+}
+.main-container i.weixin_icon {
+	display: inline-block;
+	float: left;
+    width: 28px;
+    height: 23px;
+	margin-right: 3px;
+    background: transparent url("../images/weixin.png") 0 -422px no-repeat;
+}
+.main-container a i.weixin_icon {
+	position: relative;
+	left: 50%;
+	margin-left: -14px;
+}
+/*------------------------------------------------------------------
+ 
+Layout: WeixinActivate
+
+------------------------------------------------------------------- */
+div#weixinactivate {
+	padding: 0 50px;
+}
+div#weixinactivate div.line {
+	position: relative;
+	float: left;
+	left: 10px;
+	display: inline-block;
+	margin-left: -2px;
+	width: 2px;
+	height: 281px;
+	background: transparent url("../images/weixin-activate.png") -1086px 0 no-repeat;
+}
+div#weixinactivate i.step {
+	font-weight: bold;
+	font-size: 16px;
+}
+div#weixinactivate span.activate_title {
+	line-height: 34px;
+	font-size: 16px;
+}
+div#weixinactivate a.weixin_link {
+	margin-left: 35px;
+	color: #039fe0;
+}
+div#weixinactivate a.weixin_link:hover {
+	color: #444444;
+}
+div#weixinactivate div.step_one, div#weixinactivate div.step_two, div#weixinactivate div.step_three {
+	display: inline-block;
+	margin-left: 30px;
+	width: 280px;
+	height: 190px;
+	background: transparent url("../images/weixin-activate.png") no-repeat;
+}
+div#weixinactivate div.step_two, div#weixinactivate div.step_three {
+	margin-top: 20px;
+}
+div#weixinactivate div.step_one {
+	background-position: -40px -48px;
+}
+div#weixinactivate div.step_two {
+	background-position: -395px -48px;
+}
+div#weixinactivate div.step_three {
+	background-position: -760px -48px;
+}
+div#weixinactivate p.activate_desc {
+	width: 100%;
+	margin-left: 32px;
+	font-size: 13px;
+	font-weight: bold;
+}
+div#weixinactivate p.relative_title {
+	font-weight: bold;
+	margin: 30px 0 0 32px;
+	
+}
+div#weixinactivate p.relative_code {
+	margin-left: 32px;
+}
+div#weixinactivate a.btn-next {
+	position: relative;
+	left: 40%;
+	margin: 40px 0 50px -100px;
+	width: 170px;
+}
+
+.bind-account{
+	padding-bottom: 20px;
+}
+
+.bind-account .wrapper{
+    margin-left: 60px;
+}
+.bind-account .title{
+	margin: 10px 0;
+	border-bottom: 1px solid #ddd;
+	width: 86%;
+	line-height: 35px;
+}
+
+.bind-account .title .title-desp{
+	font-size: 13px;
+    font-weight: normal;
+}
+
+.bind-account .copy-panel{
+	width: 330px;
+	border: 1px solid #ddd;
+	padding: 20px;
+	border-radius: 5px;
+    margin: 15px 0;
+}
+
+.bind-account .copy-button{
+	top: -5px;
+    position: relative;
+}
+
+.bind-account .guide{
+	margin-bottom: 30px;
+}
+
+.bind-account .submit{
+	margin: 15px 0;
+	line-height: 25px;
+	width: 120px;
+}
+
+.bind-app .input{
+   position: relative;
+   margin: 20px 0px;
+}
+
+.bind-app .input input{
+    padding-left: 25px;
+}
+
+.bind-app .input i{
+	position: absolute;
+	left: 6px;
+	top: 7px;
+	opacity: 0.6;
+}
+
+.bind-app .guide{
+    margin: 5px 25px;
+}
+
+
+/*------------------------------------------------------------------
+ 
+Layout: WeixinActivateApp
+
+------------------------------------------------------------------- */
+div#weixin_activateapp {
+	margin: 50px 0;
+}
+div#weixin_activateapp form {
+	margin: 30px 50px;
+}
+div#weixin_activateapp form .nav_title {
+	margin-bottom: 20px;
+}
+
+div#weixin_activateapp .nav_title.lefter {
+    margin-left: 48px;
+}
+
+div#weixin_activateapp form .tips {
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+div#weixin_activateapp form input {
+	height: 24px;
+	padding-left: 30px;
+}
+div#weixin_activateapp .input {
+	position: relative;
+	margin: 15px 30px;
+}
+div#weixin_activateapp .account, div#weixin_activateapp .password {
+	position: absolute;
+	border: 0;
+	background: none;
+	top: 3px;
+	left: 0;
+}
+div#weixin_activateapp a.btn-next {
+	position: relative;
+	left: 40%;
+	margin: 10px 0 50px -100px;
+	width: 170px;
+}
+div#weixin_activateapp a.btn-back {
+	position: relative;
+	left: 40%;
+	margin: 10px 0 50px 10px;
+	width: 170px;
+}
+div#weixin_activateapp .intro-grid {
+	padding: 80px;
+}
+div#weixin_activateapp .intro-grid p.activateapp_tips {
+	font-size: 14px;
+}
+div#weixin_activateapp .intro-grid div.activateapp_picture {
+	display: inline-block;
+	margin: 10px 20px;
+	width: 300px;
+	height: 173px;
+	background: transparent url("../images/weixin-activate.png") 0 -273px no-repeat;
+}
+/*------------------------------------------------------------------
+ 
+Layout: WeixinFindme
+
+------------------------------------------------------------------- */
+div#weixin_findme h4.nav_title {
+	margin: 20px 0 0 47px;
+}
+div#weixin_findme a.btn-save {
+	position: relative;
+	left: 50%;
+	margin: 30px 0 50px -100px;
+	width: 170px;
+}
+div#weixin_findme .intro-grid div.findme_picture {
+	display: inline-block;
+	margin: 30px 35px;
+	width: 290px;
+	height: 263px;
+	background: transparent url("../images/weixin.png") -615px 0 no-repeat;
+}
+
+div#weixin_findme .content{
+	padding: 0;
+}
+div#weixin_findme .sub_title_bar{
+	margin-bottom: 30px;
+}
+/*------------------------------------------------------------------
+ 
+Layout: WeixinSmartMenu
+
+------------------------------------------------------------------- */
+.main-container div#menu {
+	min-height: 500px;
+	margin-bottom: 30px;
+}
+
+.main-container div#menu .nav_container {
+	width: 300px;
+}
+.main-container div#menu .page-add {
+	margin-top: 15px;
+}
+.main-container div#menu .menu_preview {
+	text-align: center;
+}
+.main-container div#menu .smart_menu {
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+}
+.main-container div#menu .smart_menu_panel {
+	height: 480px;
+	background: #fff;
+}
+.main-container div#menu .smart_menu_panel .widget-title .buttons {
+	margin-top: 7px;
+}
+.main-container div#menu #menu_preview {
+	height: 419px;
+	background: #EFF3F7;
+}
+/*------------------------------------------------------------------
+ 
+Layout: WeixinDefault
+
+------------------------------------------------------------------- */
+div#weixindefault .dev_ai_message {
+    display: inline-block;
+    width: 186px;
+    height: 27px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") 0 -492px no-repeat;
+}
+div#weixindefault .dev_smart_menu {
+    display: inline-block;
+    width: 186px;
+    height: 27px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") 0 -527px no-repeat;
+}
+div#weixindefault .dev_find_me {
+    display: inline-block;
+    width: 125px;
+    height: 27px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") 0 -559px no-repeat;
+}
+div#weixindefault .dev_some_word {
+	float: left;
+    margin-top: 50px;
+	height: 130px;
+    width: 160px;
+    display: inline-block;
+}
+div#weixindefault .dev_some_word>i>a {
+	text-decoration: underline;
+}
+div#weixindefault .dev_create_btn {
+    float: right;
+	display: none;
+    margin: 50px 0 0 0;
+}
+div#weixindefault .dev_close_btn {
+	float: left;
+	margin: 50px 3px 0 3px;
+}
+div#weixindefault {
+	padding: 50px;
+}
+div#weixindefault div.intro-grid {
+	margin: 0 auto;
+	width: 288px;
+	color: #595959;
+	text-align: left;
+}
+div#weixindefault div.intro-grid .tips{
+	position: absolute;
+    color: #888;
+}
+
+div#weixindefault div.line {
+	position: relative;
+	float: left;
+	left: 14px;
+	display: inline-block;
+	margin-left: -2px;
+	width: 2px;
+	height: 491px;
+	background: url("../images/weixin.png") no-repeat scroll -958px 0 transparent;
+}
+div#weixindefault h5 {
+	margin: 0 0 30px 17px;
+	font-weight: normal;
+	font-size: 16px;
+}
+.main-container .dev_pic_left {
+    display: inline-block;
+    width: 290px;
+    height: 263px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") 0 0 no-repeat;
+}
+.main-container .dev_pic_middle {
+    display: inline-block;
+    width: 290px;
+    height: 263px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") -307px 0 no-repeat;
+}
+.main-container .dev_pic_right {
+    display: inline-block;
+    width: 290px;
+    height: 263px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") -615px 0 no-repeat;
+}
+#dialog .vip_intro_button {
+    display: inline-block;
+    width: 225px;
+    height: 55px;
+	margin-top: 15px;
+    vertical-align: middle;
+    background: transparent url("../images/weixin.png") -154px -384px no-repeat;
+}
+
+.weixin-functions{
+	padding: 0 15px;
+}
+
+.weixin-functions .functions-title{
+	line-height: 40px;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+
+.weixin-functions .functions-title .deco{
+	background-color: #17b1fb;
+	width: 5px;
+	display: inline-block;
+	height: 25px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.weixin-functions .functions{
+	padding: 20px;
+	background-color: #Fafafa;
+	border: solid 1px #Fcfcfc;
+	box-shadow: 1px 1px 2px #ddd;
+	border-radius: 5px;
+	margin: 15px 0 40px 0;
+}
+
+.weixin-functions .primary{
+	float: left;
+	width: 50%;
+	margin: 30px 0px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.weixin-functions .primary:first-of-type{
+	border-right: 1px solid #e5e5e5;
+}
+
+.weixin-functions .primary .wrapper{
+	width: 75%;
+    min-width: 320px;
+    margin: auto;
+}
+
+.weixin-functions .primary .weixin-icon{
+    display: block;
+	width: 145px;
+	height: 145px;
+	background: transparent url("../images/weixin-icons.png") -0px -0px no-repeat;
+	float: left;
+	margin-right: 20px;
+}
+
+
+
+.weixin-functions .primary .weixin-icon.user{
+    background-position: 0 0;
+}
+
+.weixin-functions .primary .weixin-icon.user:hover{
+	background-position: -150px 0;
+}
+
+.weixin-functions .primary .weixin-icon.resource{
+	background-position: 0 -150px
+}
+
+.weixin-functions .primary .weixin-icon.resource:hover{
+	background-position: -150px -150px
+}
+
+
+.weixin-functions .primary .function-name{
+	color: #4d4d4d;
+	font-size: 15px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+.weixin-functions .primary .function-description{
+    color: #636363;
+}
+
+
+.weixin-functions .functions.apps{
+	padding: 30px 30px;
+}
+
+.weixin-functions .secondary{
+	float: left;
+	width: 25%;
+	border-right: 1px solid #e5e5e5;
+}
+
+.weixin-functions .secondary .function-name{
+	color: #555;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.weixin-functions .secondary .weixin-icon{
+    display: block;
+	width: 105px;
+	height: 105px;
+	background: transparent url("../images/weixin-icons.png") -0px -300px no-repeat;
+	margin: auto;
+}
+
+.weixin-functions .secondary .weixin-icon:hover{
+    background-position: -150px -300px;
+}
+
+.weixin-functions .secondary .weixin-icon.ai-message{
+    background-position: 0 -410px
+}
+.weixin-functions .secondary .weixin-icon.ai-message:hover{
+    background-position: -150px -410px
+}
+
+.weixin-functions .secondary .weixin-icon.map{
+    background-position: 0 -520px
+}
+
+.weixin-functions .secondary .weixin-icon.map:hover{
+    background-position: -150px -520px
+}
+
+.activate-app-modal .input{
+   position: relative;
+   margin: 20px 0px;
+}
+
+.activate-app-modal .input input{
+    padding-left: 25px;
+    width: 100%
+}
+
+.activate-app-modal .input i{
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    opacity: 0.6;
+}
+
+.activate-app-modal .guide{
+	margin: 7px 25px;
+}
+
+.activate-app-modal .submit-binding{
+    line-height: 22px;
+}
+
+/*------------------------------------------------------------------
+ 
+Layout: helpweixin1
+
+------------------------------------------------------------------- */
+
+.help-weixin{
+	width: 620px;
+	padding: 25px 0px 25px 80px;
+	margin-top: 35px;
+    margin-bottom: 50px;
+	font-size: 14px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #ccc; 
+}
+
+.help-weixin .deco{
+    background-color: #17b1fb;
+	width: 5px;
+	display: inline-block;
+	height: 25px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.help-weixin .guide-title{
+	line-height: 40px;
+	color: #4d4d4d;
+	font-size: 16px;
+}
+
+.help-weixin .guide-desp{
+	margin: 10px 0;
+}
+
+.help-weixin .step{
+	margin-top: 35px;
+}
+
+.help-weixin .sub-step{
+    margin: 10px 0 10px 0;
+	padding-left: 70px;
+}
+
+.help-weixin .step-label{
+    color: #17B1FB;
+	font-size: 16px;
+	display: inline-block;
+	top: -1px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.help-weixin .detail{
+    margin-top: 30px;
+}
+
+.help-weixin .back{
+	text-align: right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.help-weixin .back .back-icon{
+    background: transparent url("../images/help-weixin-back.png") -0px -3px no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+/*------------------------------------------------------------------
+ 
+Layout: SmartMenu by weixin
+
+------------------------------------------------------------------- */
+.dn{display:none}
+.db{display:block}
+.dib{display:inline-block}
+.b_dib{display:inline-block;*display:inline;*zoom:1}
+.di{display:inline}
+.vh{visibility:hidden}
+.vv{visibility:visible}
+.rel{position:relative}
+.abs{position:absolute}
+.oh{overflow:hidden}
+.z{*zoom:1}
+.l{float:left}
+.r{float:right}
+.cl{clear:both}
+.group{*zoom:1}
+.group:after{content:"\200B";display:block;height:0;clear:both}
+.tc{text-align:center}
+.tr{text-align:right}
+.tl{text-align:left}
+.tj{text-align:justify;*text-justify:distribute}
+.vt{vertical-align:top}
+.vm{vertical-align:middle}
+.vb{vertical-align:bottom}
+.f0{font-size:0}
+.fa{font-family:Arial}
+.fs{font-family:SimSun}
+.fyh{font-family:"Microsoft YaHei"}
+.indent{text-indent:2em}
+.n{font-weight:400;font-style:normal}
+.b{font-weight:700}
+.i{font-style:italic}
+.tdn{text-decoration:none}
+.tdn:hover{text-decoration:none}
+.poi{cursor:pointer}
+.text-hide{line-height:999em;overflow:hidden}
+.drop_hl_extra{padding-left:999em;margin-left:-999em}
+.drop_vb_extra{padding-bottom:999em;margin-bottom:-999em}
+html{-webkit-text-size-adjust:none}
+body,h1,h2,h3,h4,h5,p,ul,ol,dl,dd{margin:0}
+ul,ol{padding-left:0;list-style-type:none}
+a img{border:0}
+.bizmenu{overflow:hidden;margin:20px;border:1px solid #ccc}
+.container .containerBox .boxHeader{padding-left:12px}
+.sidebar_primary{width:290px;padding-bottom:999em;margin-bottom:-999em;border-right:1px solid #ccc}
+.main_primary{min-height:385px}
+.area_hd{padding-left:12px;padding-right:12px;background-color:#e5e4e4}
+.area_t{font-weight:400;line-height:36px}
+.area_t a{margin:5px 0 5px 2px;*margin-top:3px;*margin-bottom:0;font-size:14px;line-height:normal}
+.area_t_text{float:left}
+.area_t_opr{float:right;text-align:right;*margin-top:-2px}
+.area_bd{padding-bottom:40px}
+.myapp{padding:0 30px 30px 30px}
+.enterprise_tip{margin-top:14px}
+.nav_item_wrapper{border-bottom:1px solid #ccc}
+.sub_nav_list .nav_item_wrapper{border-bottom-width:0}
+.nav_item{padding-top:4px;padding-bottom:4px;padding-left:12px;padding-right:12px}
+.nav_bd{overflow:hidden;*zoom:1;line-height:2}
+.nav_bd.project_bd{line-height:3}
+.nav_t{font-size:14px;font-weight:400;overflow:hidden;*zoom:1}
+.nav_btn{display:block;*zoom:1;*height:1%;color:#000;outline:0}
+.nav_icon{float:left;margin-right:4px;margin-top:-2px;*margin-top:4px}
+.nav_opr_list{float:right;margin-top:2px;*margin-top:4px}
+.nav_tip{position:absolute;left:100px;}
+.nav_opr_item{float:left}
+.nav_opr_btn{display:inline-block;margin-left:6px;margin-right:6px;cursor:pointer}
+.add_nav_btn{display:block;*height:1%;margin:8px 8px 8px 8px;border:2px dashed #ccc;text-align:center;line-height:2.5;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#000}
+.add_nav_btn .add_icon{margin-right:6px}
+.add_nav_btn:hover .add_icon{background-position:-24px 0}
+.sub_nav_list .nav_item{padding-left:30px}
+.sub_nav_list .add_nav_btn{margin-left:30px;border-width:1px;line-height:2}
+.sub_nav_list .add_nav_btn .iconAdd{margin-right:6px}
+.sub_nav_list .add_nav_btn:hover .iconAdd{background-position:-24px 0}
+.bizmenuname_dialog{padding-left:28px}
+.bizmenu_edit_area{padding:20px;padding-bottom:0}
+.bizmenu_edit_area h4{font-size:22px;font-weight:400;padding-bottom:4px}
+.bizmenu_edit_area p{color:#545454}.bizmenu_pre_area{padding:20px}
+.bizmenu_pre_area h4{font-size:22px;font-weight:400;padding-bottom:4px}
+.bizmenu_pre_area p{color:#545454}
+.pre_access_wrapper{padding:0 20px;padding-top:0;padding-bottom:100px}
+.pre_access_wrapper .pre_access{margin-right:16px;padding-left:50px;padding-right:50px;line-height:1.5;font-weight:400}
+.boxHeader_name{float:left;font-weight:400}
+.boxHeader_name a{color:#222}
+.boxHeader h2{overflow:hidden;*zoom:1}
+.pre_wrapper{position:relative;top:50%;left:50%;margin-top:-315px;margin-left:-161px;width:322px;background:transparent url("/mpres/htmledition/images/bg_pre.png") no-repeat 0 0}
+.pre_hd{text-align:center;font-size:0}
+.pre_nav_name{display:inline-block;width:140px;padding-top:136px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal;line-height:32px;font-size:12px;font-weight:400;color:#fff}
+.pre_bd{height:310px;margin-left:40px;margin-right:28px;overflow-y:auto;position:relative}
+.pre_item_wrapper{max-height:100%}
+.pre_item{margin-top:10px;margin-bottom:20px}
+.pre_avator{float:left;font-size:0;box-shadow:1px 1px 1px #ccc;-moz-box-shadow:1px 1px 1px #ccc;-webkit-box-shadow:1px 1px 1px #ccc;box-shadow:1px 1px 1px #ccc #000;-moz-box-shadow:1px 1px 1px #ccc #000;-webkit-box-shadow:1px 1px 1px #ccc #000}
+.pre_user_pic{display:inline-block;width:45px;height:45px}
+.pre_content{margin-left:50px}
+.pre_ft{min-height:152px}
+.pre_nav_wrapper{margin-left:78px;margin-right:36px}
+.pre_nav_arrow{display:inline-block;width:8px;height:12px;margin-top:14px;background:transparent url("/mpres/htmledition/images/icon_add_on_pre_nav.png") no-repeat}
+.pre_nav_arrow.prev{float:left;background-position:0 0}
+.pre_nav_arrow.next{float:right;background-position:-8px 0}
+.pre_nav_list{display:none;margin-left:12px;margin-right:12px;white-space:nowrap;letter-spacing:-4px}
+.pre_nav{display:inline-block;*display:inline;*zoom:1;position:relative;width:33%;line-height:40px;vertical-align:top;text-align:center;letter-spacing:normal;background:transparent url("/mpres/htmledition/images/icon_add_on_split_v.png") no-repeat 100% 50%}
+.pre_nav.no-extra{background:0}
+.pre_nav_btn{display:block;margin-right:12px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal;font-size:12px;color:#fff;text-decoration:none;text-shadow:0 1px 1px #000}
+.pre_nav_btn:hover{color:#a4a4a4;text-shadow:0 1px 1px #000}
+.pre_sub_nav_list{position:absolute;bottom:52px;left:-50%;margin-left:10px;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;border:1px solid #434343;box-shadow:0 1px 3px #808080,inset 0 1px 0 #656565;background-color:#4f4f4f}
+.pre_sub_nav_arrow{position:absolute;left:50%;bottom:0;margin-left:-7px;width:14px;height:10px;margin-bottom:-10px;background:transparent url("/mpres/htmledition/images/icon_add_on_sub_nav_arrow.png") no-repeat 0 0}
+.pre_sub_nav{margin:1px 1px 1px 1px;padding-bottom:1px;padding-left:1px;padding-right:1px;background:transparent url("/mpres/htmledition/images/.png") no-repeat center bottom}
+.pre_sub_nav.no_extra{background:0}
+.pre_sub_nav_btn{display:block;width:85px;color:#fff;line-height:28px;font-size:12px;text-decoration:none;text-shadow:0 1px 1px #444;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;overflow:hidden;text-overflow:ellipsis;word-wrap:normal}
+.pre_sub_nav_btn:hover{background-color:#2b2b2b}
+.pre_windows_opr{position:absolute;top:-10px;right:-16px;cursor:pointer}
+.opr_icon{display:inline-block;width:65px;height:65px;background:transparent url("/mpres/htmledition/images/icon_opr65.png") no-repeat}
+.opr_icon.closed{background-position:0 0}
+.opr_icon.closed:hover{background-position:-65px 0}
+.openhand{cursor:url(http://api.map.baidu.com/images/openhand.cur),default}
+.closedhand{cursor:url(http://api.map.baidu.com/images/closedhand.cur),move}
+.screen1 #pre_prev{display:none}
+.screen1 #preview_screen1{display:block}
+.screen1 #preview_screen2{display:none}
+.screen2 #pre_next{display:none}
+.screen2 #preview_screen1{display:none}
+.screen2 #preview_screen2{display:block}
+.pre_content .fileName{display:none}
+.pre_content .right{display:none}
+.pre_content.pt_msg{margin-left:0}
+.pre_content.pt_msg .msg-item-wrapper{width:214px}
+.pre_content.pt_msg .msg-opr{display:none}
+.pre_content.pt_msg .msg-item{border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}
+.action_tip{display: none; position: absolute; right: 4px; width: 6px; height: 10px; background: transparent url("../img/triangle.png") 0 0 no-repeat;}
+.action_tip_text{float:left}
+.action_area{padding:0 20px 20px 20px}
+.action_area .frm{padding-left:75px}
+.action_access{float:right;margin-top:-52px;margin-right:-8px;*margin-top:-54px}
+.action_modify_access{margin-left:5px}
+.action_type{padding-top:10px;text-align:center}
+.action_btn{display:inline-block;margin:0 40px 0 40px;color:#333;cursor:pointer}
+.action_btn:hover .send_icon{background-position:-144px 0}
+.action_btn:hover .url_icon{background-position:-144px -144px}
+.action_btn:hover .search_icon{background-position:-144px -288px}
+.action_btn_text{display:block;font-weight:400}
+.saved_content{padding:30px 30px 30px 30px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;overflow:hidden;*zoom:1;border:1px solid #ccc}
+.sender_opr{text-align:right;margin-top:20px}
+.sender_opr a{margin-left:10px;margin-right:10px}
+.sender_opr a.no_extra_mr{margin-right:0}
+.action_opr{margin-top:20px;padding-top:20px;text-align:center}
+.action_opr a{margin-left:10px;margin-right:10px}
+.default_content{padding:0;text-align:center;color:#545454}
+.nav_tip_box{padding-top:50px;text-align:center;color:#545454}
+.input_control{margin:0;padding:3px 5px;color:#666;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;outline:0}
+.input_control{border:1px solid #ccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
+.frm_opr a{margin-right:20px;margin-top:10px}
+.frm_controlS{width:140px;max-width:140px}
+.frm_controlM{width:206px;max-width:206px}
+.frm_controlL{width:460px;max-width:460px}
+.frm_controlXL{width:710px;max-width:710px}
+.frm_control_group{min-height:100px;overflow:hidden}
+.frm .desc{display:block;color:#a1a1a1}
+.valid_msg{margin-left:3px;display:none}
+.success_msg{color:#7fba4f}
+.fail_msg{color:#ff6a2f}
+.valid_msg_show_block .valid_msg{display:block}
+.valid_msg_show_inline .valid_msg{display:inline}
+.success_valided .fail_msg{display:none}
+.fail_valided .success_msg{display:none}
+.opr_icon24{display:inline-block;vertical-align:middle;width:24px;height:24px;background:transparent url("../img/icon24_opr.png") no-repeat}
+.opr_icon24.add_icon{background-position:0 0}
+.opr_icon20{display:inline-block;vertical-align:middle;width:20px;height:20px;background:transparent url("/mpres/htmledition/images/icon20_opr.png") no-repeat}
+.opr_icon20.enter_icon{background-position:0 0}
+.opr_icon16{display:inline-block;vertical-align:middle;width:16px;height:16px;background:transparent url("../img/icon16_opr.png") no-repeat}
+.opr_icon16.switch_icon{background-position:0 -16px}
+.opr_icon16.add_icon{background-position:-16px -32px}
+.opr_icon16.add_icon_primary{background-position:0 -32px}
+.opr_icon16.edit_icon{background-position:-16px -48px}
+.opr_icon16.edit_icon_primary{background-position:0 -48px}
+.opr_icon16.del_icon{background-position:-16px -64px}
+.opr_icon16.del_icon_primary{background-position:0 -64px}
+.opr_icon16.sort_icon{background-position:-16px -80px}
+.opr_icon16.sort_icon_primary{background-position:0 -80px}
+.opr_icon16.detail_icon{background-position:-16px -96px}
+.opr_icon16.detail_icon_primary{background-position:0 -96px}
+.action_icon{display:inline-block;width:144px;height:144px;background:transparent url("/mpres/htmledition/images/icon144_action_type.png") no-repeat}
+.action_icon.send_icon{background-position:0 0}
+.action_icon.url_icon{background-position:0 -144px}
+.action_icon.search_icon{background-position:0 -288px}
+.add_on_icon10{display:inline-block;vertical-align:middle;width:10px;height:10px;background:transparent url("../img/icon10_add_on.png") no-repeat}
+.add_on_icon10.circle{background-position:0 0}
+.add_nav_btn.cur{display:none}
+.input_prepend{display:none}
+.nav_opr_list{display:none}
+.nav_tip{display:none}
+.nav_list.sorting .sub_nav_list{display:block}
+.nav_list.sorting .add_nav_btn{display:none}
+.nav_list.sorting .nav_item{background:0;background-color:#fff}
+.nav_list.sorting .nav_item .nav_bd{display:block}
+.nav_list.sorting .nav_item .nav_btn{color:#000}
+.nav_list.sorting .nav_item .nav_icon .switch_icon{background-position:0 -16px}
+.nav_list.sorting .nav_item .nav_opr_list{display:block}
+.nav_list.sorting .nav_item .nav_opr_list .nav_opr_sort_btn{display:inline-block}
+.nav_list.sorting .nav_item .nav_opr_list .nav_opr_add_btn{display:none}
+.nav_list.sorting .nav_item .nav_opr_list .nav_opr_edit_btn{display:none}
+.nav_list.sorting .nav_item .nav_opr_list .nav_opr_del_btn{display:none}
+.nav_list.sorting .nav_item .input_prepend{display:none}
+.nav_list.sorting .nav_item.cur{background:0}
+.nav_list.sorting .current2 .nav_item{background-color:#c5deab}
+.nav_list.sorting .current2 .nav_item .sort_icon_primary{background-position:-16px -80px}
+.nav_list.sorting .current1{border:2px solid #c5deab}
+.nav_list.sorting .current1 .nav_item{background-color:#c5deab}
+.nav_list.sorting .current1 .sort_icon_primary{background-position:-16px -80px}
+.nav_list.sorting .current1 .sub_nav_list .nav_item{background-color:#fff}
+.nav_list.sorting .current1 .sub_nav_list .sort_icon_primary{background-position:0 -80px}
+.nav_list.sorting .placed_item{height:80px;margin:8px 8px 8px 8px;border:1px dotted #ccc}
+.nav_list.sorting .placed_sub_item{height:28px;margin:10px 10px 10px 10px;border:1px dotted #ccc}
+.nav_item_level1_wrapper .switch_icon{background-position:0 -16px}
+.has_no_sub_nav .switch_icon{background-position:0 0}
+.has_no_sub_nav .nav_item.cur .switch_icon{background-position:-16px 0}
+.nav_item.editing{background-color:#c5deab}
+.nav_item.editing .nav_bd{display:none}
+.nav_item.editing .input_prepend{display:block}
+.nav_item.cur{background-color:#65ae0f;background-image:linear-gradient(bottom,#4d910c 0,#51960d 20%,#5aa10e 50%,#64ad0f 97%,#bcdc94 100%);background-image:-moz-linear-gradient(bottom,#4d910c 0,#51960d 20%,#5aa10e 50%,#64ad0f 97%,#bcdc94 100%);background-image:-webkit-linear-gradient(bottom,#4d910c 0,#51960d 20%,#5aa10e 50%,#64ad0f 97%,#bcdc94 100%)}
+.nav_item.cur .nav_btn{color:#fff}
+.nav_item.cur .switch_icon{background-position:-16px -16px}
+.nav_item.cur .circle{background-position:-10px 0}
+.nav_item.cur.hover{background-color:#65ae0f;background-image:linear-gradient(bottom,#4d910c 0,#51960d 20%,#5aa10e 50%,#64ad0f 97%,#bcdc94 100%);background-image:-moz-linear-gradient(bottom,#4d910c 0,#51960d 20%,#5aa10e 50%,#64ad0f 97%,#bcdc94 100%);background-image:-webkit-linear-gradient(bottom,#4d910c 0,#51960d 20%,#5aa10e 50%,#64ad0f 97%,#bcdc94 100%)}
+.sorting .nav_item.cur{background-color:#fff}
+.sorting .nav_item.cur .circle{background-position:0 0}
+.nav_item.hover{background:0;background-color:#c5deab}
+.nav_item.hover .nav_opr_list{display:block}
+.nav_item.hover .nav_opr_list,.nav_item.cur .nav_opr_list{display:block}
+.nav_item.hover .nav_opr_list .nav_opr_sort_btn,.nav_item.cur .nav_opr_list .nav_opr_sort_btn{display:none}
+.msg_sender_wrapper{display:none}
+.frm{display:none}
+.action_type{display:none}
+.action_opr{display:none}
+.nav_tip_box{display:none}
+.saved_content{display:none}
+.saved_content .msg-item-wrapper{width:350px;font-size:14px}
+.saved_content .msg-item-wrapper .msg-opr{display:none}
+.action_tip.type_tip{display:none}
+.action_tip.url_tip{display:none}
+.action_tip.send_tip{display:none}
+.action_access{display:none}
+.action_modify_access{display:none}
+#action_container.has_sub_nav .nav_tip_box{display:block}
+#action_container.has_sub_nav .default_content{display:none}
+#action_container.has_sub_nav .action_tip.default_tip{display:none}
+#action_container.has_sub_nav .action_tip .action_access{display:inline-block}
+#action_container.has_sub_nav .action_tip .action_modify_access{display:none}
+#action_container.type .action_opr{display:block}
+#action_container.type .action_opr .url_btn{display:none}
+#action_container.type .action_opr .send_btn{display:none}
+#action_container.type .action_type{display:block}
+#action_container.type .default_content{display:none}
+#action_container.type .action_tip.default_tip{display:none}
+#action_container.type .action_tip.type_tip{display:block}
+#action_container.send .action_opr{display:block}
+#action_container.send .action_opr .url_btn{display:none}
+#action_container.send .msg_sender_wrapper{display:block}
+#action_container.send .default_content{display:none}
+#action_container.send .action_type{display:none}
+#action_container.send .action_tip.default_tip{display:none}
+#action_container.send .action_tip.send_tip{display:block}
+#action_container.send .action_tip .action_modify_access{display:inline-block}
+#action_container.url .action_opr{display:block}
+#action_container.url .action_opr .send_btn{display:none}
+#action_container.url .frm{display:block}
+#action_container.url .default_content{display:none}
+#action_container.url .action_type{display:none}
+#action_container.url .action_tip.default_tip{display:none}
+#action_container.url .action_tip.url_tip{display:block}
+#action_container.url .action_tip .action_modify_access{display:inline-block}
+#action_container.saved .msg_sender_wrapper{display:none}
+#action_container.saved .frm{display:none}
+#action_container.saved .saved_content{display:block}
+#action_container.saved .default_content{display:none}
+#action_container.saved .action_opr{display:none}
+#action_container.saved .action_tip.default_tip{display:none}
+#action_container.saved .action_tip .action_access{display:inline-block}
+#action_container.saved .action_tip .action_modify_access{display:none}
+.myapp_func{padding-top:30px;padding-bottom:30px}
+.myapp_bizmenu{border-bottom-width:0}
+.myapp_func_title{position:relative;margin-left:350px;padding-bottom:6px;margin-bottom:14px;border-bottom:1px solid #ccc}
+.myapp_func_t{float:left;font-size:21px;font-weight:400;margin-bottom:6px}
+.myapp_func_bd{overflow:hidden;*zoom:1;padding-top:12px}
+.myapp_func_pic_holder{float:left;padding-top:5px}
+.myapp_func_pic{width:336px}
+.myapp_func_intro{margin-left:350px}
+.myapp_func_text{color:#7b7b7b}
+.myapp_func_opr{padding-top:14px}
+span.myapp_func_opr{padding-top:0}
+.myapp_bizmenu_tip{margin-left:8px;margin-top:5px}
+.opened_tip,.closed_tip{float:right}
+.myapp_func_btn{float:right}
+.used_tip{color:#3d3}
+.closed_tip{color:#333}
+.myapp_setting_tip,.enterprise_tip{display:inline-block;position:relative;color:#545454;width:95%;text-indent:8px;border:1px solid #c2d4e1;background-color:#e2f0f8;padding:4px 0;word-wrap:break-word;word-break:break-all}
+.bizmenu_setting_tip{display:none;float:right;margin-right:4px;font-weight:400}
+.myapp_setting_btn{float:right;margin-right:12px}
+.myapp_tip_arrow{position:absolute;top:50%;width:0;height:0;margin-top:-8px;border-width:8px;border-color:transparent;border-style:dotted solid dotted dotted}
+.myapp_tip_arrow.out{left:-16px;border-right-color:#c2d4e1}
+.myapp_tip_arrow.in{left:-15px;border-right-color:#e2f0f8}
+.myapp_bizmenu_tip{display:none}
+.myapp_func_btn{display:none}
+.myapp_func_opr{display:none}
+.devving_tip{display:none}
+.devving .devving_tip{display:block}
+.devving .default_dev_tip{display:none}
+.devving .myapp_func_btn{display:inline-block}
+.devving .myapp_func_btn.closed_btn{display:none}
+.devving .myapp_func_opr{display:block}
+.devving .using .myapp_func_btn.used_btn{display:none}
+.devving .using .myapp_func_btn.closed_btn{display:inline-block}
+.devving .using.func_status0 .myapp_bizmenu_tip{display:inline-block}
+.devving .using.func_status0 .myapp_bizmenu_tip.closed_tip{display:none}
+.devving .using.func_status0 .myapp_bizmenu_tip.opened_tip{display:none}
+.devving .using.func_status0 .myapp_func_btn{display:inline-block}
+.devving .using.func_status0 .myapp_func_btn.used_btn{display:none}
+.devving .using.func_status1 .myapp_bizmenu_tip{display:inline-block}
+.devving .using.func_status1 .myapp_bizmenu_tip.closed_tip{display:none}
+.devving .using.func_status1 .myapp_bizmenu_tip.used_tip{display:none}
+.devving .using.func_status1 .myapp_func_btn.used_btn{display:none}
+.devving .using.func_status1 .myapp_func_btn.closed_btn{display:none}
+.devving .using.menu_status1 .myapp_setting_tip.released_tip{display:inline-block}
+.devving .using.menu_status1 .myapp_setting_tip.draft_tip,.devving .using.menu_status1 .myapp_setting_tip.releasing_tip{display:none}
+.devving .using.menu_status2 .myapp_setting_tip.draft_tip{display:inline-block}
+.devving .using.menu_status2 .myapp_setting_tip.releasing_tip,.devving .using.menu_status2 .myapp_setting_tip.released_tip{display:none}
+.devving .using.menu_status3 .myapp_setting_tip.releasing_tip{display:inline-block}
+.devving .using.menu_status3 .myapp_setting_tip.draft_tip,.devving .using.menu_status3 .myapp_setting_tip.released_tip{display:none}
+.devving .func_status2 .myapp_bizmenu_tip{display:inline-block}.devving .func_status2 .myapp_bizmenu_tip.used_tip{display:none}
+.devving .func_status2 .myapp_bizmenu_tip.opened_tip{display:none}.devving .func_status2 .myapp_func_btn.used_btn{display:inline-block}
+.devving .func_status2 .myapp_func_btn.closed_btn{display:none}.devving .func_status2 .myapp_func_opr{display:none}
+.menu_status1 .bizmenu_setting_tip.releasing_tip{display:inline-block}.menu_status2 .bizmenu_setting_tip.released_tip{display:inline-block}

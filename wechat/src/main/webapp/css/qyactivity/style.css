@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0 !important;
+	font-size: 14px;
+	vertical-align: baseline;
+	background: transparent;
+	font-family:"微软雅黑";
+}
+a{
+	color:#848484;
+	text-decoration:none;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 28px;
+	padding-bottom: 15px;
+}
+h2{
+	font-size: 20px;
+	text-align: left;
+	padding-top: 28px;
+	padding-bottom: 15px;
+}
+body{
+	background:#E7F3F8;
+}
+#head{
+	width:100%;
+	background-image:url(../../images/qyactivity/head_bg.jpg);
+	height:55px;
+	padding-top:25px;
+}
+.hd_center{
+	margin:0 auto;
+	width:1002px;
+	padding:0 20 0 20;
+}
+.toup{
+	width:100%;
+}
+.tp_center{
+	width: 1002px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 20;
+	padding-bottom: 30;
+	padding-left: 20;
+}
+#uTable{
+	background-color:#FFFFFF;
+	border: 1 solid #646473;
+	cellpadding: 0;
+	width: 100%;
+	text-align: left;
+	text-indent:1em;
+	line-height: 2.5em;
+	}
+#oTable{
+	background-color: #FFFFFF;
+	cellpadding: 0;
+	cellpadding: 2;
+	width: 100%;
+	text-align: left;
+	line-height: 2.5em;
+	margin-top: 15px;
+	display:;		
+	border-top-width: 1;
+	border-right-width: 1;
+	border-bottom-width: 1;
+	border-left-width: 1;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #646473;
+	border-right-color: #646473;
+	border-bottom-color: #646473;
+	border-left-color: #646473;
+	}
+#oTable tr td{
+	padding-left:2em;
+	padding-right:1em;
+}
+.submit {
+	-moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background-color: transparent;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #383838;
+	display: inline-block;
+	cursor: pointer;
+	color: #191919;
+	font-size: 18px;
+	padding: 9px 64px;
+	text-decoration: none;
+	
+}
+.submit:hover {
+	background-color:#FFF;
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
+#foot{
+	widht: 100%;
+	background-image: url(../../images/qyactivity/head_bg.jpg);
+	height: 30px;
+	padding-top: 10px;
+}
+.ft_center{
+	margin:0 auto;
+	widt:1002px;
+	padding:0 20 0 20;
+	text-align:center;
+	color:#FFF;
+}
