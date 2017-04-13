@@ -1,0 +1,54 @@
+
+.fsUpload{
+	width:100px;
+	position : absolute;
+}
+
+.swfupload{
+	margin : 2px;
+}
+
+.fsUploadProgress {
+	width: 300px;
+	position:relative;
+}
+
+.fsUploadProgress .progressWrapper{
+	z-index: 100;
+}
+
+.fsUploadProgress .progressContainer{
+	font-size: 10px;
+	padding: 5px;
+	background : #F0F0F0;
+}
+
+.image_thumbnails{
+	height: 120px;
+}
+
+.image_thumbnails .imgSetDiv{
+	width: 110px;
+	float: left;
+	margin : 5px;
+	border: 1px solid grad;
+}
+
+.image_thumbnails .imgDiv{
+	text-align: center;
+	border: 1px solid gray;
+    margin: 2px;
+    padding: 2px;
+	widht: 100px;
+	height: 100px;
+}
+
+.image_thumbnails .imgDiv img{
+	border: none;
+}
+
+.image_thumbnails .deleteDiv{
+	line-height: 12px;
+	font-size: 10px;
+	text-align: center;
+}

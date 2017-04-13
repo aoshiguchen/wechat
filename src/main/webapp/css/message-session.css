@@ -1,0 +1,126 @@
+@charset "utf-8";
+* { margin:0; padding:0}
+a { text-decoration:none;}
+ul { list-style:none;}
+img { border:0}
+.container {
+	font-family: Arial, Helvetica, sans-serif;
+	width:1280px;
+	margin:0 auto;
+	background:#fff;
+}
+.topBar {
+	background:#0e94f6;
+	border-bottom:1px solid #066db9;
+	}
+.menuList {  margin:0 10PX 0 50px;}
+.menuList LI { float:left; background:url(../../images/message_session/message_session/menuLiBg.gif) right center no-repeat; text-align:center; }
+.menuList LI span { float:right; background:url(../images/message_session/mNbg.gif) no-repeat; width:15px; height:15px; color:#fff; text-align:center; font-size:12px; margin-right:5px;}
+
+.banner { background:url(../images/message_session/bannerBg.gif) repeat-x; height:61px; font-size:14px; color:#3b6788;}
+
+.color_1 { color:#F90}
+.userPic span { margin-left:-15px;}
+.userPicOn { background:url(../images/message_session/kfPicBg.gif) no-repeat center bottom; width:84px; height:58px;}
+.kfOpen { background:url(../images/message_session/keOpenBg.gif) no-repeat; width:222px; height:186px;font-size:14px; position:relative; z-index:999;top:-2px; right:-1032px;_right:-1030px;}
+.keTable { margin:10px; color:#3a6687 }
+.keTable th { font-weight:normal; padding:5px 0;}
+.keTable td { line-height:30px; border-bottom:1px dashed #efefef;}
+.keTable td a {color:#3a6687}
+.content { margin-top:-186px;}
+.left { width:200px; background:url(../images/message_session/leftBg.gif) repeat-y;}
+.Menubox {
+	background:url(../images/message_session/leftTabbg.gif) repeat-x; height:40px;
+	width:200px;
+}
+.Menubox ul{
+
+
+}
+.Menubox li{
+float:left;
+background:url(../images/message_session/leftTabbg.gif) repeat-x; width:30%; text-align:center;height:40px;line-height:40px; }
+.Menubox li.hover{
+text-align:center;
+background:#dce8f6;
+color:#fff;
+}
+
+.Contentbox{
+clear:both;
+margin:10px 0; padding:0 0 0 10px;
+font-size:14px;
+color:#3b6788;
+}
+.menuTable {}
+.menuTable td { padding:5px;}
+.msgN { background:url(../images/message_session/mNbg.gif) no-repeat; color:#fff; text-align:center; width:15px; height:15px;}
+
+
+/*middle*/
+.middle { font-size:14px;}
+.dialogueTitle { background:#f4f8fb; line-height:40px; text-indent:15px; color:#3a6788}
+.red { color:#ff5b28}
+.blue { color:#0b93f6}
+.gray { color:#999}
+.green { color:#76b003} 
+
+.dialogueTable { margin:10px;}
+.dialogueTable th { font-weight:normal;padding:5px;}
+.dialogueTable td {padding:5px;}
+.dialogueBottom { background:#f4f8fb; font-size:12px; color:#aaaaaa; line-height:28px; text-indent:10px;}
+.dialogueDiv { height:380px; overflow-y:scroll;}
+
+.iconsTable { background:#d5e0e6;z-index:1; position:relative; top:-31px;}
+.dialogueTipsU { background:url(../images/message_session/dTipsBgU.gif) no-repeat; text-align:center; color:#b25900; font-size:12px; position:relative; z-index:2;}
+.dialogueTipsD{ background:url(../images/message_session/dTipsBgD.gif) no-repeat; text-align:center; color:#b25900; font-size:12px; position:relative;z-index:2; line-height:26px;}
+.inputDialogue { background:#fff; border-bottom:1px solid #c2c1c6; position:relative; top:-30px; height:200px; }
+.textareaStyle { width:800px; height:300px;} 
+.sendBtn { background:#ecf2f7;position:relative; top:-31px; height:40px;}
+.btnStyle { background:url(../images/message_session/btnBg.gif) no-repeat; width:67px; height:28px; color:#3a6687; border:0; font-size:14px; }
+
+.right { width:200px; background:#f7f7f9;}
+.MenuboxR {
+	background:#d5dfe8; height:40px; font-size:14px;
+}
+.MenuboxR ul{
+}
+.MenuboxR li{
+float:left; color:#788591;
+background:#d5dfe8; width:100px; text-align:center;height:40px;line-height:40px; }
+.MenuboxR li.hover{
+text-align:center;
+background:url(../images/message_session/tabRightOnbg.gif) no-repeat center bottom;
+color:#788591;
+}
+
+.ContentboxR{
+clear:both;
+margin:10px 0; padding:0 0 0 10px;
+font-size:14px;
+color:#3b6788;
+}
+
+.customerMsg { font-weight:bold; }
+.customerMsg a {color:#3b6788; text-decoration:underline;}
+.customerTable { font-size:13px;color:#3b6788; margin:10px 0;}
+.customerTable th,.customerTable td { padding:3px 5px;}
+
+.title_1 { height:40px; line-height:40px; text-indent:15px;
+background:#d5dfe8 url(../images/message_session/tabRightOnbg.gif) no-repeat 15px bottom;
+color:#788591; font-size:14px;}
+.title_1 span { float:right; font-weight:bold; margin-right:10px;}
+.title_1 span a {color:#3b6788; text-decoration:underline}
+
+.serInput { background:url(../images/message_session/serInputBg.gif) no-repeat; border:0; width:166px; height:23px; line-height:23px; font-size:13px;}
+.keyWordList { margin:10px; font-size:14px; font-weight:bold;}
+.keyWordList li { float:left; padding:0 6px; margin:5px 0}
+.keyWordList li a { color:#000; display:block;}
+.keyWordList li a:hover { background:#c5cfd7; color:#fff;}
+
+.newsList { margin:10px 0; list-style:none}
+.newsList li { line-height:22px; font-size:12px; text-indent:10px; }
+.newsList li a {color:#3a6687;}
+.newsList li a:hover { text-decoration:underline}
+
+

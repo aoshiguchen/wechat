@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#fff;}
+
+.header{width: 100%; padding-top:16px;}
+.header h1{text-align: center; font-weight: bold; font-size:2em }
+
+
+main{margin:0 auto; min-width:320px; width:99%; overflow:hidden; }
+
+/*@media screen and (max-width:768px){
+  main{margin:0 auto; min-width:768px; width:768px; overflow:hidden; }
+}
+@media screen and (max-width:640px){
+  main{margin:0 auto; min-width:640px; width:640px; overflow:hidden; }
+}
+@media screen and (max-width:480px){
+  main{margin:0 auto; min-width:480px; width:480px; overflow:hidden; }
+}
+@media screen and (max-width:320px){
+  main{margin:0 auto; min-width:320px; width:320px; overflow:hidden; }
+}*/
+
+.footer{ left: 0; bottom: 0; width: 100%;}
+
+
+.clo{clear:both; overflow:hidden;zoom:1;}
+.clear{clear:both;}
+
+/*padding*/
+.pl10{padding-left:10px;}
+.pl30{padding-left:30px;}
+.pl50{padding-left:50px;}
+.pl60{padding-left:60px;}
+.pl55{padding-left:55px;}
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.pb20{padding-bottom:20px;}
+.pr10{padding-right:10px;}
+.pr30{padding-right:30px;}
+
+/*margin*/
+.mt1p{margin-top:1%;}
+.mt2p{margin-top:2%;}
+.mt2{margin-top:2px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt40{margin-top:40px;}
+.ml10{margin-left:10px;}
+.mr10{margin-right:10px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.c-hui-666{color:#666;}
+
+/*width*/
+.w60p{width:60%;}
+.w53p{width:53%;}
+.w30p{width:33%; }
+.w40p{width:40%; }
+.w45p{width:45%; }
+.w49p{width:49%; }
+.w49p{width:49%; }
+.w90p{width:90%; }
+.w98p{width:98%; }
+.w100p{width:100%; }
+
+/*height*/
+.h46{height:46px;!important}
+.h32{height:32px; }
+.h36{height:36px; }
+.lh34{line-height:34px;}
+.lh28{line-height:28px;}
+.h158{height:158px; line-height:158px}
+.h124{height:124px; line-height:124px}
+.h260{height:260px; padding:1% 0; line-height:260px;}
+
+/*color*/
+.c-blue{color:#52B7FA;}
+.line-under{text-decoration:underline;}
+.c-white{color:#fff;}
+.c-hui-80{color:#808080;}
+.c-green-93{color:#93C428;}
+.c-hui-44{color:#444;}
+.c-blue-01{color:#0184DC;}]
+
+/*bgcolor*/
+.bg-green{background:#4ab60b;}
+.bg-yellow{background:#ff9934;}
+.bg-red1{background:#cc3467;}
+.bg-blue{background:#01b0f1;}
+.bg-he1{background:#7f4f21;}
+.bg-blue2{background:#0098ad;}
+.bg-green-90{background:#90C320;}
+
+.left{width:200px;position: absolute;overflow-x:hidden;float:left;overflow:hidden; background:url(../images/left-bg.png) repeat-y;}
