@@ -7,7 +7,7 @@ import java.util.Date;
  * @author aoshiguchen
  * @time 2017-04-07
  */
-public abstract class AbstractPModel implements IPo {
+public abstract class AbstractPModel implements IPo,IJo,IVo{
 
 	private static final long serialVersionUID = 1L;
 
@@ -111,4 +111,21 @@ public abstract class AbstractPModel implements IPo {
 		this.isFalseDelete = isFalseDelete;
 	}
 
+	@Override
+	public IVo toVo() {
+		
+		return this;
+	}
+
+	@Override
+	public IPo toPo() {
+		
+		return this;
+	}
+
+	@Override
+	public IJo toJo() {
+		
+		return this;
+	}
 }

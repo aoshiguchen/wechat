@@ -3,7 +3,7 @@
 	2、支持列名注解映射							+
 	3、支持列名映射缓存							+
 	4、IRetrieve单列查询							+
-	5、IRetrieve多列查询							-
+	5、IRetrieve多列查询							+
 	6、对于实现了comparable接口的IPo实现排序		-    （不合理）
 	7、IRetrieve模糊查询							-
 	8、无条件分页和条件分页的全面支持				-

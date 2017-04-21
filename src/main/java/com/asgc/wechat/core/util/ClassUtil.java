@@ -3,14 +3,13 @@ package com.asgc.wechat.core.util;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import com.asgc.wechat.core.annotation.Column;
 import com.asgc.wechat.core.annotation.Table;
+
 import static com.asgc.wechat.core.util.CacheUtil.*;
 
 /**
@@ -38,13 +37,13 @@ public class ClassUtil {
 		return clazz;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public static <T> T valueOf(Class<T> clazz,Object obj){
 		T res = null;
 		
 		clazz = (Class<T>)getPackClass(clazz);
 		
 		Method method = null;
-		
 
 		method = getMethod(clazz,"valueOf", obj.getClass());
 
@@ -85,6 +84,11 @@ public class ClassUtil {
 	public static boolean isBaseClass(Class<?> clazz){
 		
 		return getBaseClassSet().contains(clazz);
+	}
+	
+	public static boolean isMapClass(Class<?> clazz){
+		
+		return clazz == Map.class;
 	}
 	
 	/**

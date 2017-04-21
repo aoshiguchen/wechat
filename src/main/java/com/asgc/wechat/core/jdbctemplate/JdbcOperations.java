@@ -6,7 +6,9 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 
@@ -89,6 +91,7 @@ public class JdbcOperations implements IJdbcOperations{
 	public <T> T executeQeury(final Connection conn, final Class<T> clazz,final String sql, final Object[] params) {
 		return this.execute(new PreparedStatementCallback<T>() {
 
+			@SuppressWarnings("unchecked")
 			@Override
 			public T execute(PreparedStatement ps) {
 				T obj = null;
@@ -101,6 +104,20 @@ public class JdbcOperations implements IJdbcOperations{
 						if(ClassUtil.isBaseClass(clazz)){
 							Object value = resultSet.getObject(1);
 							obj = ClassUtil.valueOf(clazz, value);
+						}else if(ClassUtil.isMapClass(clazz)){
+							Map<String,Object> tmp = new HashMap<String,Object>();
+							
+							ResultSetMetaData rsmd = resultSet.getMetaData();
+							int columnCount = rsmd.getColumnCount();
+							
+							for(int i = 1;i <= columnCount;i++){
+								String name = rsmd.getColumnName(i);
+								Object value = resultSet.getObject(i);
+								
+								tmp.put(name, value);
+							}
+							
+							obj = (T)tmp;
 						}else{
 							
 							obj = clazz.newInstance();
@@ -151,6 +168,7 @@ public class JdbcOperations implements IJdbcOperations{
 	public <T> List<T> executeQeuryForList(final Connection conn,final Class<T> clazz, final String sql, final Object[] params) {
 		return this.execute(new PreparedStatementCallback<List<T>>() {
 
+			@SuppressWarnings("unchecked")
 			@Override
 			public List<T> execute(PreparedStatement ps) {
 				List<T> res = new ArrayList<T>();
@@ -166,6 +184,18 @@ public class JdbcOperations implements IJdbcOperations{
 						if(ClassUtil.isBaseClass(clazz)){
 							Object value = resultSet.getObject(1);
 							obj = ClassUtil.valueOf(clazz, value);
+						}else if(ClassUtil.isMapClass(clazz)){
+							Map<String,Object> tmp = new HashMap<String, Object>();
+							
+							for(int i = 1;i <= columnCount;i++){
+								String name = rsmd.getColumnName(i);
+								Object value = resultSet.getObject(i);
+								
+								tmp.put(name, value);
+							}
+							
+							obj = (T)tmp;
+							
 						}else{
 							obj = clazz.newInstance();
 							
