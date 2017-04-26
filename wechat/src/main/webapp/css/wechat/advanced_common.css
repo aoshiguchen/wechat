@@ -1,0 +1,23 @@
+.icon_advanced_mode{width:135px;height:135px;vertical-align:middle;display:inline-block}
+.icon_advanced_mode.edit{background:url("../../images/advanced_common_z.png") 0 0 no-repeat}
+.icon_advanced_mode.dev{background:url("../../images/advanced_common_z.png") 0 -145px no-repeat}
+.icon50_status{width:50px;height:50px;vertical-align:middle;display:inline-block}
+.icon50_status.on{background:url("../../images/advanced_common_z.png") 0 -290px no-repeat}
+.icon50_status.off{background:url("../../images/advanced_common_z.png") 0 -350px no-repeat}
+.icon_mode_switch{width:52px;height:26px;vertical-align:middle;display:inline-block}
+.icon_mode_switch.on{background:url("../../images/advanced_common_z.png") 0 -410px no-repeat}
+.icon_mode_switch.off{background:url("../../images/advanced_common_z.png") 0 -446px no-repeat}
+.icon_dev_bbs{background:url("../../images/advanced_common_z.png") 0 -482px no-repeat;width:105px;height:105px;vertical-align:middle;display:inline-block}
+
+.page_advanced .sub_title_bar.global .info{padding-top:24px}
+.page_advanced .sub_title_bar.global .info .icon50_status{margin-left:50px;margin-right:1em}
+.page_advanced .sub_title_bar.global .opr{width:200px;box-shadow:inset 1px 0 0 0 #fcfcfc;-moz-box-shadow:inset 1px 0 0 0 #fcfcfc;-webkit-box-shadow:inset 1px 0 0 0 #fcfcfc;border-left:1px solid #ccc;text-align:center;cursor:pointer}
+.page_advanced .sub_title_bar.global .opr .icon_mode_switch{margin-left:.5em;margin-right:.5em}
+.page_advanced .sub_title_bar.global .opr:hover{background-color:#e8e8e8;background-image:-moz-linear-gradient(top,#f0f0f0 0,#e3e3e3 100%);background-image:-webkit-gradient(linear,0 0,0 100%,from(#f0f0f0),to(#e3e3e3));background-image:-webkit-linear-gradient(top,#f0f0f0 0,#e3e3e3 100%);background-image:-o-linear-gradient(top,#f0f0f0 0,#e3e3e3 100%);background-image:linear-gradient(to bottom,#f0f0f0 0,#e3e3e3 100%)}
+.page_advanced .sub_title_bar.global .switch_area{display:inline-block;height:100px;line-height:100px;cursor:pointer}
+.page_advanced .sub_title_bar.global .switch_area strong{display:inline-block;font-weight:700}
+.page_advanced .sub_title_bar.global .switch_area a{display:inline-block;text-decoration:none;font-weight:700}
+.page_advanced .sub_title_bar.global .switch_area.opened strong{color:#bababa}
+.page_advanced .sub_title_bar.global .switch_area.opened a{color:#222}
+.page_advanced .sub_title_bar.global .switch_area.closed strong{color:#222}
+.page_advanced .sub_title_bar.global .switch_area.closed a{color:#bababa}

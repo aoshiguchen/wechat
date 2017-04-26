@@ -1,0 +1,78 @@
+/**
+ * By chenyanhong
+ * date 2014.12.04
+ * v  1.0
+ * 手机适配首页样式
+ */
+/*reset*/
+body, div, ol, ul, h1, h2, h3, h4, h5, h6, p, th,td, dl, dd, form, iframe, input, textarea, select, label, article, aside, footer, header, menu, nav, section, time, audio, video {
+	margin: 0;
+	padding: 0;
+}
+article, aside, footer, header, hgroup, nav, section, audio, canvas, video {
+	display: block;
+}
+/*调整页面文本大小，-webkit-text-size-adjust: none 时，可以调整字体大小小于12px;
+auto值时，如字体大小小于12px，都会以12px显示;
+百分比时，字体显示的大小;*/
+body {
+	font-size: 100%;
+	font-family: STHeiti, Droid Sans Fallback;
+	color: 333333;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-size: 100%; 
+    font-weight: normal; 
+}
+textarea {
+	resize: none;
+}
+iframe, img {
+	border: 0;
+}
+ul {
+	list-style: none;
+}
+/*可以控制用户能不能选择页面中的文本，设置用户是否可以编辑元素内容*/
+input, select, textarea {
+	outline: 0;
+	user-modify: read-write-plaintext-only;
+}
+/*更改按钮和其他控件的外观按照本地默认样式*/
+/*input {
+	-webkit-appearance: none;
+}*/
+a {
+	color: #7c7c7c;;
+	cursor: pointer;
+	
+}
+em {
+	font-style: normal;
+	font-weight: normal;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:before, .clearfix:after {
+	content: ".";
+	display: block;
+	font-size: 0;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearfix:after {
+	clear: both;
+}
+table {
+	border-collapse: collapse;
+}
