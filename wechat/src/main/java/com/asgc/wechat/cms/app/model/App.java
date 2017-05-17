@@ -25,6 +25,7 @@ public class App extends AbstractPModel{
 	}
 
 	public void setSecret(String secret) {
+		System.out.println("-------------------setSecret invoked!");
 		this.secret = secret;
 	}
 

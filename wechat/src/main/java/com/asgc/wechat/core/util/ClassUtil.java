@@ -248,9 +248,14 @@ public class ClassUtil {
 			
 			try {
 				
-				field.setAccessible(true);
+//				field.setAccessible(true);
+//				
+//				field.set(obj, value);
 				
-				field.set(obj, value);
+				String getMethodName = StringUtil.getGetMethodName(fieldName);
+				Method method = getMethod(obj.getClass(), getMethodName, field.getType());
+				method.invoke(obj, value);
+				
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -266,9 +271,14 @@ public class ClassUtil {
 		for(Field field : fieldList){
 			try {
 				
-				field.setAccessible(true);
+//				field.setAccessible(true);
+//				
+//				field.set(obj, value);
 				
-				field.set(obj, value);
+				String setMethodName = StringUtil.getSetMethodName(field.getName());
+				Method method = getMethod(obj.getClass(), setMethodName, field.getType());
+				method.invoke(obj, value);
+				
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
